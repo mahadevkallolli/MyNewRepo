@@ -8,6 +8,7 @@ public class HashMapExample1{
    map.put(4,"Grapes");   
        
    System.out.println("Iterating Hashmap...");  
+  //for each loop used to iterate
    for(Map.Entry m : map.entrySet()){    
     System.out.println(m.getKey()+" "+m.getValue());    
    }  
